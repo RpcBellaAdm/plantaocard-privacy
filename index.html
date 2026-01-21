@@ -1,0 +1,419 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="INDEX, FOLLOW" / >
+    <meta name="language" content="portuguese" />
+    <meta name="document-rights" content="Public" / >
+    <meta name="document-rating" content="General" / >
+    <meta name="document-state" content="Dynamic" / >
+    <meta http-equiv="Content-Language" content="PT-BR" / >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <script type="text/javascript" src="assets/js/jquery-1.7.1.min.js"></script>
+    <link rel="shortcut icon" type="image/ico" href="" />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/banner.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/topo_1.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/geral.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="assets/js/jssor.slider-23.0.0.min.js" type="text/javascript"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmsCjVC09sZS4qG87O1jE1rCCz42xgNsA" type="text/javascript"></script>
+    <script src="assets/js/banner.js" type="text/javascript"></script>
+
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/sreset.css"> -->
+    <script src="assets/js/jquery-latest.js"></script>
+    <script src="assets/js/js.js"></script>
+
+        <title>Plantão Card</title>
+
+
+    <style type="text/css">
+
+    .ttle_default{
+      /*font-size: 38px;*/
+      /*text-align: center;*/
+      font-family: 'Raleway', sans-serif;
+    }
+
+    .ttle_default_sub{
+      font-size: 20px;
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+    }
+
+
+    .int_map{
+      position: absolute;
+      z-index: 1000;
+      background-color: #fff;
+      padding:10px;
+      margin-top: 50px;
+      margin-left: 10px;
+      border-radius:2px;
+      border-color: #080808;
+      border:none;
+      -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow:    0px 0px 20px rgba(0, 0, 0, 0.3);
+      box-shadow:         0px 0px 20px rgba(0, 0, 0, 0.3);
+
+    }
+
+    .ttle_Card{
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      font-size: 30px;
+      color: #999;
+    }
+
+    .p_padrao{
+      padding-bottom: 40px;
+      padding-top: 40px;
+    }
+
+    .p_0{
+      padding: 0;
+    }
+
+    .home_res{
+      max-width: 1364px;
+    }
+
+    .img_responsa{
+      width: 100%;
+    }
+
+
+
+    .bg_fff{
+      background-color: #fff;
+    }
+
+    .font_25{
+      font-size: 25px;
+    }
+
+    .font_15{
+      color: #787878;
+      font-size: 15px;
+    }
+
+    .span_1{
+      color: #483c8c;
+      font-weight: bold;
+    }
+
+    .span_2{
+      color: #787878;
+      font-weight: ;
+    }
+
+    .home_text{
+      height: 500px;
+    }
+
+    .campo{
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-indent: 0.8em;
+      width: 90%;
+      border-radius: 3px;
+      background-color: #fff;
+      border:#e5e5e5 solid 1px;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }.campo:focus{
+      outline: none;
+      border:#e0e0e0 solid 1px;
+      background-color: #efefef;
+    }
+        .btn_contact{
+
+        width: 90%;
+
+        color: #707070;
+
+        padding: 10px;
+        border-radius: 2px;
+        cursor: pointer;
+
+    }.btn_contact:hover{
+        opacity: 0.8;
+    }
+
+    .ttl_form{
+      font-size: 18px;
+      color: #666;
+    }
+
+    </style>
+
+
+
+    <script>
+    
+
+    </script>
+
+
+    </head>
+
+
+
+
+
+<body>
+
+
+
+    
+
+
+
+<div class="container">
+
+
+
+  <!-- Modal -->
+
+
+
+  <div class="modal fade" id="myModal" role="dialog">
+
+
+
+    <div class="modal-dialog" style='background-image:url(assets/img/bg_m.png);'>
+
+
+
+
+
+
+
+      <!-- Modal content-->
+
+
+
+      <div class="modal-content">
+
+
+
+        <div class="modal-header" style='background-color: ; color:#fff; border-radius-top:10px;'>
+
+
+
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+
+
+          <h3 style="color:#333; font-size:17px;" class='font_raleway'><b>MENU</b></h3>
+
+
+
+        </div>
+
+
+
+        <div class="modal-body">
+
+
+
+
+
+
+
+            <div class='pop_menu' id='home_1'>&nbsp;&nbsp;&nbsp;&nbsp;HOME</div>
+
+
+
+            <div class='pop_menu' id='empresa_1'>&nbsp;&nbsp;&nbsp;&nbsp;EMPRESAS</div>
+
+
+
+            <div class='pop_menu' id='estabelecimentos_1'>&nbsp;&nbsp;&nbsp;&nbsp;ESTABELECIMENTOS</div>
+
+
+
+            <div class='pop_menu' id='clientes_1'>&nbsp;&nbsp;&nbsp;&nbsp;CLIENTES</div>
+
+
+
+            <div class='pop_menu' id='cartoes_1'>&nbsp;&nbsp;&nbsp;&nbsp;CART�ES</div>
+
+
+
+            <div class='pop_menu' id='contato_1'>&nbsp;&nbsp;&nbsp;&nbsp;FALE CONOSCO</div>
+
+
+
+            <div class='pop_menu' id='localizar_1'>&nbsp;&nbsp;&nbsp;&nbsp;LOCALIZAR</div>
+
+
+
+            <div class='pop_menu' id='suporte_1'>&nbsp;&nbsp;&nbsp;&nbsp;VENDAS</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+  </div> 
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class='container-fluid' style='background-color:#001040;'>
+
+
+
+      <div class='container'>
+
+
+
+        <div class='row'>
+
+
+
+            <div class='col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 text-center p_0' id='logo' style='cursor:pointer;'><img src='assets/img/logo.png'></div>
+
+
+
+
+
+
+
+            <div class='col-12 col-sm-9 col-md-9 col-lg-9 col-xl-9 p_0'>
+
+
+
+              <div class='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p_0'><br></div>
+
+
+
+              <div class='col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 p_0' id='usercartao'><a href='solicite.php'><img src='assets/img/user_o_cartao.png' border='0'></a></div>
+
+		
+
+  		<div class='col-12 col-sm-7 col-md-7 col-lg-7 col-xl-7 p_0' id='contel'></div>
+
+
+
+              <div class='col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 p_0 text-right' id='mmidias'><br><br><img src='assets/img/tel_lat_2.png'>&nbsp;&nbsp;&nbsp;</div>
+
+
+
+              <div class='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p_0'><br></div>
+
+
+
+              <div class='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-right ttle_default p_0'>
+
+
+
+                <div class='mmenu' id='lmenu'><span class='m_topo mlat' id='empresa'>EMPRESAS  </span>  <span class='m_topo mlat' id='estabelecimentos'>ESTABELECIMENTOS </span> <span class='m_topo mlat' id='clientes'>CLIENTES </span> <span class='m_topo mlat' id='cartoes'>CART�ES </span> <span class='m_topo mlat' id='contato2'>FALE CONOSCO</span> <span class='m_topo mlat' id='localizar'>LOCALIZAR</span> <span class='m_topo' id='suporte'>SUPORTE</span></div>
+
+
+
+              </div>
+
+
+
+              <div class='open_m' id='open_m' data-toggle="modal" data-target="#myModal"><img src='assets/img/ico_menu.png'></div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+  </div>			
+
+
+      <div class='container-fluid home_text p_padrao'>
+        <div class='container'>
+          <div class='row text-center'><br><bR></div>
+          <div class='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12'>
+            <form>
+             <div class='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 font_15'> <h2>Política Privacidade</h2> <p>A sua privacidade é importante para nós. É política do Plantão Card respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site <a href=http://plantaocard.com.br>Plantão Card</a>, e outros sites que possuímos e operamos.</p> <p>Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado. </p> <p>Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​​para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.</p> <p>Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.</p> <p>O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas respectivas <a href='https://privacidade.me/' target='_BLANK' style='color: #576d96;text-decoration: none;'>políticas de privacidade</a>. </p> <p>Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados.</p> <p>Titular tem permissão ou autonomia de alterar o limite do cartão do dependente, dentro limite já estabelecido pelo RH da empresa.</p> <p>O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais. Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contato conosco.</p> <h2>Segurança e Confiança do site Plantão Card</h2><p>O site é confiável e seguro para navegação do usuário conforme informado pela <a target='_BLANK' style='color: #576d96;text-decoration: none;' href='https://confiavel.com.br/http://plantaocard.com.br' rel='noopener noreferrer'>Verificação</a>. A página verifica informações do site para identificar possíveis problemas de segurança. A navegação verificada pela ferramenta <a target='_BLANK' style='color: #576d96;text-decoration: none;' href='https://transparencyreport.google.com/safe-browsing/search?url=http://plantaocard.com.br' rel='noopener noreferrer'>segurança do Google</a> mostra que o site é seguro. </p><h2>Política de Cookies Plantão Card</h2> <h3>O que são cookies?</h3> <p>Como é prática comum em quase todos os sites profissionais, este site usa cookies, que são pequenos arquivos baixados no seu computador, para melhorar sua experiência. Esta página descreve quais informações eles coletam, como as usamos e por que às vezes precisamos armazenar esses cookies. Também compartilharemos como você pode impedir que esses cookies sejam armazenados, no entanto, isso pode fazer o downgrade ou 'quebrar' certos elementos da funcionalidade do site.</p> <h3>Como usamos os cookies?</h3> <p>Utilizamos cookies por vários motivos, detalhados abaixo. Infelizmente, na maioria dos casos, não existem opções padrão do setor para desativar os cookies sem desativar completamente a funcionalidade e os recursos que eles adicionam a este site. É recomendável que você deixe todos os cookies se não tiver certeza se precisa ou não deles, caso sejam usados ​​para fornecer um serviço que você usa.</p> <h3>Desativar cookies</h3> <p>Você pode impedir a configuração de cookies ajustando as configurações do seu navegador (consulte a Ajuda do navegador para saber como fazer isso). Esteja ciente de que a desativação de cookies afetará a funcionalidade deste e de muitos outros sites que você visita. A desativação de cookies geralmente resultará na desativação de determinadas funcionalidades e recursos deste site. Portanto, é recomendável que você não desative os cookies.</p> <h3>Cookies que definimos</h3> <ul> <li> Cookies relacionados à conta<br><br> Se você criar uma conta conosco, usaremos cookies para o gerenciamento do processo de inscrição e administração geral. Esses cookies geralmente serão excluídos quando você sair do sistema, porém, em alguns casos, eles poderão permanecer posteriormente para lembrar as preferências do seu site ao sair.<br><br> </li> <li> Cookies relacionados ao login<br><br> Utilizamos cookies quando você está logado, para que possamos lembrar dessa ação. Isso evita que você precise fazer login sempre que visitar uma nova página. Esses cookies são normalmente removidos ou limpos quando você efetua logout para garantir que você possa acessar apenas a recursos e áreas restritas ao efetuar login.<br><br> </li> <li> Cookies relacionados a boletins por e-mail<br><br> Este site oferece serviços de assinatura de boletim informativo ou e-mail e os cookies podem ser usados ​​para lembrar se você já está registrado e se deve mostrar determinadas notificações válidas apenas para usuários inscritos / não inscritos.<br><br> </li> <li> Pedidos processando cookies relacionados<br><br> Este site oferece facilidades de comércio eletrônico ou pagamento e alguns cookies são essenciais para garantir que seu pedido seja lembrado entre as páginas, para que possamos processá-lo adequadamente.<br><br> </li> <li> Cookies relacionados a pesquisas<br><br> Periodicamente, oferecemos pesquisas e questionários para fornecer informações interessantes, ferramentas úteis ou para entender nossa base de usuários com mais precisão. Essas pesquisas podem usar cookies para lembrar quem já participou numa pesquisa ou para fornecer resultados precisos após a alteração das páginas.<br><br> </li> <li> Cookies relacionados a formulários<br><br> Quando você envia dados por meio de um formulário como os encontrados nas páginas de contacto ou nos formulários de comentários, os cookies podem ser configurados para lembrar os detalhes do usuário para correspondência futura.<br><br> </li> <li> Cookies de preferências do site<br><br> Para proporcionar uma ótima experiência neste site, fornecemos a funcionalidade para definir suas preferências de como esse site é executado quando você o usa. Para lembrar suas preferências, precisamos definir cookies para que essas informações possam ser chamadas sempre que você interagir com uma página for afetada por suas preferências.<br> </li> </ul> <h3>Cookies de Terceiros</h3> <p>Em alguns casos especiais, também usamos cookies fornecidos por terceiros confiáveis. A seção a seguir detalha quais cookies de terceiros você pode encontrar através deste site.</p> <ul> <li> Este site usa o <a href='https://analytics.google.com/analytics/web/'>Google Analytics</a>, que é uma das soluções de análise mais difundidas e confiáveis ​​da Web, para nos ajudar a entender como você usa o site e como podemos melhorar sua experiência. Esses cookies podem rastrear itens como quanto tempo você gasta no site e as páginas visitadas, para que possamos continuar produzindo conteúdo atraente. </li> </ul> <p>Para mais informações sobre cookies do Google Analytics, consulte a página oficial do Google Analytics.</p> <ul> <li> As análises de terceiros são usadas para rastrear e medir o uso deste site, para que possamos continuar produzindo conteúdo atrativo. Esses cookies podem rastrear itens como o tempo que você passa no site ou as páginas visitadas, o que nos ajuda a entender como podemos melhorar o site para você.</li> <li> Periodicamente, testamos novos recursos e fazemos alterações subtis na maneira como o site se apresenta. Quando ainda estamos testando novos recursos, esses cookies podem ser usados ​​para garantir que você receba uma experiência consistente enquanto estiver no site, enquanto entendemos quais otimizações os nossos usuários mais apreciam.</li> <li> À medida que vendemos produtos, é importante entendermos as estatísticas sobre quantos visitantes de nosso site realmente compram e, portanto, esse é o tipo de dados que esses cookies rastrearão. Isso é importante para você, pois significa que podemos fazer previsões de negócios com precisão que nos permitem analizar nossos custos de publicidade e produtos para garantir o melhor preço possível.</li> </ul><h3>Compromisso do Usuário</h3> <p>O usuário se compromete a fazer uso adequado dos conteúdos e da informação que o Plantão Card oferece no site e com caráter enunciativo, mas não limitativo:</p> <ul> <li>A) Não se envolver em atividades que sejam ilegais ou contrárias à boa fé a à ordem pública;</li> <li>B) Não difundir propaganda ou conteúdo de natureza racista, xenofóbica, ou casas de apostas, jogos de sorte e azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou contra os direitos humanos;</li> <li>C) Não causar danos aos sistemas físicos (hardwares) e lógicos (softwares) do Plantão Card, de seus fornecedores ou terceiros, para introduzir ou disseminar vírus informáticos ou quaisquer outros sistemas de hardware ou software que sejam capazes de causar danos anteriormente mencionados.</li> </ul><h3>Bloquear cookies:</h3><p> O usuário pode bloquear e/ou desativar os cookies de qualquer site, inclusive o nosso a qualquer momento. Para realizar esse procedimento, acesse as configurações do seu browser. Consulte abaixo guias de ajuda dos principais navegadores: </p><ul> <li> <a target='_blank' rel='noopener noreferrer'  href='https://support.google.com/accounts/answer/61416?hl=en'> Google Chrome </a> </li><li> <a target='_blank' rel='noopener noreferrer'  href='https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop?redirectlocale=en-US&amp;redirectslug=enable-and-disable-cookies-website-preferences'> Firefox </a> </li><li> <a target='_blank' rel='noopener noreferrer'  href='https://support.microsoft.com/pt-br/help/17442/windows-internet-explorer-delete-manage-cookies'> Microsoft Edge </a> </li><li> <a target='_blank' rel='noopener noreferrer'  href='https://blogs.opera.com/news/2015/08/how-to-manage-cookies-in-opera/'> Opera </a> </li><li> <a target='_blank' rel='noopener noreferrer'  href='https://support.apple.com/pt-br/guide/safari/sfri11471/mac'> Safari </a>. </li></ul> <h3>Mais informações</h3> <p>Esperemos que esteja esclarecido e, como mencionado anteriormente, se houver algo que você não tem certeza se precisa ou não, geralmente é mais seguro deixar os cookies ativados, caso interaja com um dos recursos que você usa em nosso site.</p> <p>Esta política é efetiva a partir de <strong>Dezembro</strong>/<strong>2024</strong>.</p>                    
+
+ <br>
+ <br> <br>
+      </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+  
+
+
+</body>
+</html>
+
+
+
+<script src="assets/js/bootstrap_2.min.js"></script>
+<script type="text/javascript">jssor_1_slider_init();</script>
+
+
